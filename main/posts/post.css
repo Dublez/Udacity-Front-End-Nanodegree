@@ -1,0 +1,93 @@
+@import url("../blog/menu.css");
+@import url("../posts/author.css");
+@import url('../posts/share.css');
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.bg-container-outer{
+    margin: 25px auto;
+    width: 60%;
+    min-width: 450px;
+    display: grid;
+    grid-template-rows: auto 50px auto auto auto;
+    text-decoration: none;
+}
+
+/* .element{
+    border: 1px solid red;
+} */
+
+.logo-outer{
+    display: block;
+}
+
+.logo-inner{
+    text-align: center;
+}
+
+.logo{
+    width: 200px;
+    margin: 25px;
+}
+
+.bg-post-outer{
+    display: block;
+}
+
+.bg-post-header{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    margin-bottom: 2.5rem;
+}
+.bg-post-title{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.bg-meta{
+    font-size: 1rem;
+}
+
+.bg-content-header{
+    size: 2.5rem;
+}
+
+.bg-content-header-2{
+    size: 1rem;
+    font-style: italic;
+    border-left: 6px solid #900087;
+    padding-left: 15px; 
+}
+
+.bg-content{
+    size: 1.5rem;
+    line-height: 2rem;
+}
+
+.bg-content p{
+    padding-bottom: 1.5rem;
+}
+
+.bg-content p a{
+    text-decoration: none;
+    color: #f4b3a4;
+}
+
+.bg-content p em{
+    color: #f4b3a4;
+}
+
+.bg-image-internal{
+    max-width: 100%;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.bg-container-inner{
+    margin-top: 2rem;
+    width: 400px;
+}

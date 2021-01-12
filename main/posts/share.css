@@ -1,0 +1,9 @@
+.bg-share-buttons{
+    text-align: center;
+}
+
+.bg-share-button{
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}

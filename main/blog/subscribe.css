@@ -1,0 +1,65 @@
+.bg-subscribe-container{
+    width: 95%;
+    max-width: 400px;
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2);
+    float: left;
+}
+
+@media(min-width: 1151px){
+    .bg-subscribe-container{
+        float: right;
+    }
+}
+
+.bg-subscribe-header{
+    color:#000;
+    background-color:#f1f1f1;
+}
+
+.bg-subscribe-header h3{
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+.bg-subscribe-container-inner{
+    display: flex;
+    margin-right: 30px;
+}
+
+.bg-expert{
+    /* border-radius: 50%; */
+    /* float: left; */
+    width: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.bg-subscribe-expert{
+    display: block;
+    min-width: 80px;
+    margin: 20 auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+    align-content: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.bg-expert-text{
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+}
+
+.bg-subscribe-text{
+    font-size: 1rem;
+}
+
+.bg-subscribe-button{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}

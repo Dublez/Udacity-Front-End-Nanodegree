@@ -1,0 +1,50 @@
+
+.col-title{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: #f4b3a4;   
+}
+
+.col-content{
+    font-family: "Noto Sans JP", sans-serif;
+    color: black;
+    font-size: 14px;
+}
+
+
+.bg-custom-posts-thumb-x1{
+    width: 200px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-custom-posts-xl-title a{
+    font-size: 16px;
+}
+
+.bg-custom-posts-x2-title a{
+    font-size: 13px; 
+}
+
+.bg-custom-posts-x1-image{
+    width: 350px;
+}
+
+.bg-custom-posts-x2-image{
+    width: 100px;
+}
+.bg-custom-posts-item-inner-small{
+    display: flex;
+    flex-direction: row;
+}
+
+.bg-custom-posts-item{
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+.bg-custom-posts-widget{
+    margin-left: 0;
+    padding-left: 0;
+}
