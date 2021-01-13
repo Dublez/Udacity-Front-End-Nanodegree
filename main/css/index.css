@@ -11,7 +11,7 @@ body{
 .bg-container-outer{
     margin: 25px auto;
     width: 90%;
-    min-width: 400px;
+    min-width: 450px;
     display: grid;
     grid-template-rows: 50px 500px auto;
 }
@@ -24,45 +24,97 @@ body{
     background-color: burlywood;
 }
 
-.bg-header-outer{
+.bg-header-container{
     background-image: url("../wines_main.jpg"); 
-    width: 600px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
-.menu-header-container{
-    width: 600px;
+.bg-main-container{
+    width: 100%;
+    /* flex-direction: row; */
+}
+
+@media(max-width: 649px){
+    .bg-main-container{   
+        display: grid;
+        row-gap: 100px;
+        column-gap: 50px;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: 
+        "col1"
+        "col2" 
+        "sub";
+    }
+
+    .bg-main-content-col-1{
+        grid-area: "col1";
+        width: 400px;
+    }
+    
+    .bg-main-content-col-2{
+        grid-area: "col2";
+        width: 400px;
+    }
+    
+    .bg-sidebar{
+        grid-area: "sub";
+        width: 400px;
+    }
+}
+
+@media (min-width : 650px) and (max-width: 1150px){
+    .bg-main-container{       
+        display: grid;
+        row-gap: 100px;
+        column-gap: 50px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+        "col1 col2" 
+        "sub";
+    }
+
+    .bg-main-content-col-1{
+        grid-area: "col1";
+        width: 400px;
+    }
+    
+    .bg-main-content-col-2{
+        grid-area: "col2";
+        width: 400px;
+    }
+    
+    .bg-sidebar{
+        grid-area: "sub";
+        width: 400px;
+    }
 }
 
 @media(min-width: 1151px){
-    .menu-header-container{
-        width: 100%;
-    }
-
-    .bg-header-outer{
-        width: 100%;
-    }
-
-    .bg-main{
+    .bg-main-container{   
         display: grid;
-        grid-template-columns: 75% 25%;
+        row-gap: 100px;
+        column-gap: 50px;
+        grid-template-columns: 35% 35% 25%;
+        grid-template-rows: auto;
+        grid-template-areas: "col1 col2 sub";
     }
 
-    .bg-home-content{
-        display: grid;
-        grid-template-columns: 30vw 30vw;
-        justify-content: center;
+    .bg-main-content-col-1{
+        grid-area: "col1";
     }
-}
-
-
-.bg-main-content-col-1{
-    max-width: 400px;
-    margin-right: 20px;
-}
-
-.bg-main-content-col-2{
-    max-width: 400px;
-    margin-left: 20px;
+    
+    .bg-main-content-col-2{
+        grid-area: "col2";
+    }
+    
+    .bg-sidebar{
+        grid-area: "sub";
+    }
 }
 
 .entry-meta{

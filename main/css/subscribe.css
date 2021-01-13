@@ -1,14 +1,6 @@
 .bg-subscribe-container{
-    width: 95%;
-    max-width: 400px;
     box-shadow:0 4px 10px 0 rgba(0,0,0,0.2);
     float: left;
-}
-
-@media(min-width: 1151px){
-    .bg-subscribe-container{
-        float: right;
-    }
 }
 
 .bg-subscribe-header{
@@ -55,7 +47,8 @@
 }
 
 .bg-subscribe-text{
-    font-size: 1rem;
+    font-size: 0.8rem;
+    font-family: "Roboto", sans-serif;
 }
 
 .bg-subscribe-button{
