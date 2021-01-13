@@ -25,7 +25,7 @@ body{
 }
 
 .bg-header-outer{
-    background-image: url("wines_main.jpg"); 
+    background-image: url("../wines_main.jpg"); 
     width: 600px;
 }
 
